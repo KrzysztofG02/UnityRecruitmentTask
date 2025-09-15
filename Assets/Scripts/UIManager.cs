@@ -41,6 +41,7 @@ public class MainMenu
 {
     public GameObject mainMenuScreen;
     public Button startButton;
+    public TextMeshProUGUI highScoreText;
 }
 
 public class UIManager : MonoBehaviour
@@ -76,16 +77,7 @@ public class UIManager : MonoBehaviour
         this.playerController = FindFirstObjectByType<PlayerController>();
         this.gameManager = FindFirstObjectByType<GameManager>().GetComponent<GameManager>();
 
-        this.keyRequiredPopup.popupObject.SetActive(false);
-        this.openPopup.popupObject.SetActive(false);
-        this.takePopup.popupObject.SetActive(false);
-
-        this.gameOverScreen.screenObject.SetActive(false);
-
         this.mainMenu.mainMenuScreen.SetActive(true);
-
-        this.ToggleTimerVisibility(false);
-
         this.mainMenu.startButton.onClick.AddListener(() =>
         {
             this.gameManager.SetGame();
@@ -93,25 +85,38 @@ public class UIManager : MonoBehaviour
             this.mainMenu.mainMenuScreen.SetActive(false);
         });
 
+        this.keyRequiredPopup.popupObject.SetActive(false);
         this.keyRequiredPopup.okButton.onClick.AddListener(() => { 
             this.CloseKeyRequiedPopup();
             this.TogglePlayerControl(true); 
         });
+
+        this.openPopup.popupObject.SetActive(false);
         this.openPopup.noButton.onClick.AddListener(() => { 
             this.CloseOpenPopup();
             this.TogglePlayerControl(true); 
         }) ;
+
+        this.takePopup.popupObject.SetActive(false);
         this.takePopup.noButton.onClick.AddListener(() => {
             this.CloseTakePopup();
             this.TogglePlayerControl(true);
         });
 
+        this.gameOverScreen.screenObject.SetActive(false);
         this.gameOverScreen.tryAgainButton.onClick.AddListener(() => {
             gameManager.ResetGame();
 
             this.CloseGameOverScreen();
             this.TogglePlayerControl(true);
         });
+
+        this.ToggleTimerVisibility(false);
+    }
+
+    public void Start()
+    {
+        this.mainMenu.highScoreText.text = "High score: " + this.gameManager.bestGameTime + " s";
     }
 
     public void Update()

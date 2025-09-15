@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "B:\\Unity Projects\\UnityRecruitmentTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|B:\\Unity Projects\\UnityRecruitmentTask\\assets\\scripts\\chestinteractive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\chestinteractive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAE7B287-6E53-36EB-2F60-820FB29BEEA6}|Assembly-CSharp.csproj|b:\\unity projects\\unityrecruitmenttask\\assets\\scripts\\character control\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAE7B287-6E53-36EB-2F60-820FB29BEEA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character control\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAE7B287-6E53-36EB-2F60-820FB29BEEA6}|Assembly-CSharp.csproj|b:\\unity projects\\unityrecruitmenttask\\assets\\scripts\\door\\doorinteractiive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAE7B287-6E53-36EB-2F60-820FB29BEEA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\door\\doorinteractiive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DAE7B287-6E53-36EB-2F60-820FB29BEEA6}|Assembly-CSharp.csproj|B:\\Unity Projects\\UnityRecruitmentTask\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAE7B287-6E53-36EB-2F60-820FB29BEEA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAE7B287-6E53-36EB-2F60-820FB29BEEA6}|Assembly-CSharp.csproj|B:\\Unity Projects\\UnityRecruitmentTask\\assets\\scripts\\doorinteractiive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAE7B287-6E53-36EB-2F60-820FB29BEEA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doorinteractiive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAE7B287-6E53-36EB-2F60-820FB29BEEA6}|Assembly-CSharp.csproj|B:\\Unity Projects\\UnityRecruitmentTask\\assets\\scripts\\character control\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAE7B287-6E53-36EB-2F60-820FB29BEEA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character control\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DAE7B287-6E53-36EB-2F60-820FB29BEEA6}|Assembly-CSharp.csproj|B:\\Unity Projects\\UnityRecruitmentTask\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,68 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DoorInteractiive.cs",
-              "DocumentMoniker": "B:\\Unity Projects\\UnityRecruitmentTask\\Assets\\Scripts\\DoorInteractiive.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DoorInteractiive.cs",
-              "ToolTip": "B:\\Unity Projects\\UnityRecruitmentTask\\Assets\\Scripts\\DoorInteractiive.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DoorInteractiive.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T19:53:03.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "B:\\Unity Projects\\UnityRecruitmentTask\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "B:\\Unity Projects\\UnityRecruitmentTask\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T12:46:24.914Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ChestInteractive.cs",
-              "DocumentMoniker": "B:\\Unity Projects\\UnityRecruitmentTask\\Assets\\Scripts\\ChestInteractive.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ChestInteractive.cs",
-              "ToolTip": "B:\\Unity Projects\\UnityRecruitmentTask\\Assets\\Scripts\\ChestInteractive.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ChestInteractive.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T19:53:00.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UIManager.cs",
-              "DocumentMoniker": "B:\\Unity Projects\\UnityRecruitmentTask\\Assets\\Scripts\\UIManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
-              "ToolTip": "B:\\Unity Projects\\UnityRecruitmentTask\\Assets\\Scripts\\UIManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
-              "ViewState": "AgIAAPcAAAAAAAAAAAAqwAABAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T09:35:31.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "B:\\Unity Projects\\UnityRecruitmentTask\\Assets\\Scripts\\Character Control\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character Control\\PlayerController.cs",
               "ToolTip": "B:\\Unity Projects\\UnityRecruitmentTask\\Assets\\Scripts\\Character Control\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Character Control\\PlayerController.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAmwAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T15:40:54.989Z"
+              "WhenOpened": "2025-09-14T23:09:58.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoorInteractiive.cs",
+              "DocumentMoniker": "B:\\Unity Projects\\UnityRecruitmentTask\\Assets\\Scripts\\Door\\DoorInteractiive.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Door\\DoorInteractiive.cs",
+              "ToolTip": "B:\\Unity Projects\\UnityRecruitmentTask\\Assets\\Scripts\\Door\\DoorInteractiive.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Door\\DoorInteractiive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T21:47:24.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "B:\\Unity Projects\\UnityRecruitmentTask\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "B:\\Unity Projects\\UnityRecruitmentTask\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAmwF8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T12:46:24.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "B:\\Unity Projects\\UnityRecruitmentTask\\Assets\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "B:\\Unity Projects\\UnityRecruitmentTask\\Assets\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T09:35:31.292Z",
+              "EditorCaption": ""
             }
           ]
         }

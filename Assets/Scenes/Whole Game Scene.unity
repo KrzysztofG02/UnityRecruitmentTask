@@ -510,7 +510,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &188093443
@@ -1371,6 +1371,7 @@ MonoBehaviour:
   mainMenu:
     mainMenuScreen: {fileID: 188093441}
     startButton: {fileID: 437968403}
+    highScoreText: {fileID: 1028488371}
   gameOverScreen:
     screenObject: {fileID: 1891868191}
     currentScoreText: {fileID: 535681747}
@@ -2741,7 +2742,7 @@ GameObject:
   - component: {fileID: 1028488372}
   - component: {fileID: 1028488371}
   m_Layer: 5
-  m_Name: GameOverText
+  m_Name: HighScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2786,7 +2787,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MENU
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3928,6 +3929,7 @@ MonoBehaviour:
   playerStartTransform: {fileID: 1955390582}
   roomManager: {fileID: 1387652782}
   uiManager: {fileID: 525770617}
+  highScoreSaveKeyName: HighScore
 --- !u!4 &1347805560
 Transform:
   m_ObjectHideFlags: 0

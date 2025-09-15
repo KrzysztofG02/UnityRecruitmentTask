@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
     [Header("UI Manager")]
     [SerializeField] private UIManager uiManager;
 
+    [SerializeField] private string highScoreSaveKeyName = "HighScore";
     private bool timerRunning = false;
     public float gameTime { get; private set; } = 0f;
     public float bestGameTime { get; private set; } = float.MaxValue;
@@ -48,6 +49,11 @@ public class GameManager : MonoBehaviour
 
             this.playerController = this.playerObject.GetComponent<PlayerController>();
             this.player = this.playerObject.GetComponent<Player>();
+
+            if (PlayerPrefs.HasKey(this.highScoreSaveKeyName))
+            {
+                this.bestGameTime = PlayerPrefs.GetFloat(this.highScoreSaveKeyName);
+            }
 
             DontDestroyOnLoad(this.gameObject);
         }   
@@ -89,6 +95,9 @@ public class GameManager : MonoBehaviour
         if (this.gameTime < this.bestGameTime)
         {
             this.bestGameTime = this.gameTime;
+
+            PlayerPrefs.SetFloat(this.highScoreSaveKeyName, this.bestGameTime);
+            PlayerPrefs.Save();
         }
     }
 
